@@ -86,3 +86,30 @@
   text-align: center;
   margin-top: 25%;
 }
+
+/* Services */
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding:  20px;
+  margin: 20px  20%;
+}
+
+.service-item {
+  width: 20%;
+}
+.service-item h3{
+  text-align: center;
+  margin-left: 50px;
+  padding-bottom: 15px;
+}
+.service-item p{
+  margin-left: 15px;
+  font-size: 9px;
+}
+
+.service-item img {
+  width: 250px;
+  height: 250px;
+  border-radius: 30%;
+}
