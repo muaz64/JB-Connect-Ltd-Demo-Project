@@ -113,3 +113,44 @@
   height: 250px;
   border-radius: 30%;
 }
+
+* Reason */
+.reason {
+  background: #f9f9f9;
+  border-style: solid;
+  border-color: #00aaff;
+  margin: 500px;
+  padding: 50px 20px;
+}
+
+.reason-header {
+  display: flex;
+ 
+}
+.reason-header h2{
+  text-align: center;
+  color: white;
+  background-color: #00aaff;
+}
+
+.reason-number {
+  background: #00aaff;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.reason-content {
+  margin-top: 20px;
+  display: flex;
+}
+
+.reason-images img {
+  width: 500px;
+  margin-right: 10px;
+}
+
+.reason-text {
+  margin-left: 20px;
+}
