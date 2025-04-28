@@ -163,7 +163,7 @@
 /* Story&Success */
 .story-success {
   background: url('bgSec04.jpg') no-repeat center/cover;
-  height: 500px;
+  height: 400px;
   color: white;
   padding: 50px 20px;
   display: flex;
@@ -175,4 +175,18 @@
 .story-success h3 {
   text-align: center;
   padding: 20px;
+}
+
+.footer{
+  margin: 150px 250px;
+  display: flex;
+}
+
+.copy {
+  text-align: center;
+  margin: 100px;
+  font-size: 0.8em;
+}
+.line {
+  border: 2px solid black;
 }
