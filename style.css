@@ -3,46 +3,66 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body {
+  body, html {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
+    height: 100%;
   }
-  header.hero{
+  .hero{
     position: relative;
-    background: url('mainImg.jpg') no-repeat center;
-    background-size: contain;
-    width: 100%;
+    background: url('mainImg.jpg') center no-repeat;
+    background-size: cover;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    z-index: -1;
   }
 
-  .navbar ul {
+  nav {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  
+  nav ul {
     display: flex;
+    gap: 20px;
     list-style: none;
-    justify-content: flex-end;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.39);
   }
-
-  .navbar li a{
-    padding: 0 15px;
+  
+  nav a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     font-weight: bold;
+    font-size: 12px;
+    transition: color 0.3s;
   }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
   .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    margin-bottom: 5px;
     color: white;
-    padding-bottom: 50px;
   }
-  .hero-text h1{
-    font-size: 3em;
-  }
-  .hero-text p{
-    font-size: 1.2em;
+  
+  .hero-text p {
+    font-size: 20px;
+    color: #f0f0f0;
   }
 
   /* vision */
