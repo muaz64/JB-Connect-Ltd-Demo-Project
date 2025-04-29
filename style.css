@@ -95,7 +95,7 @@
 .message-block img {
   width: 50%;
   height: auto;
-  
+ 
 }
 .message-text {
   width: 50%;
@@ -111,18 +111,17 @@
 /* Services */
 .services {
   display: flex;
-  justify-content: space-around;
-  padding:  20px;
-  margin: 20px  20%;
+  justify-content: center;
+  margin: 5% 20%;
 }
 
 .service-item {
-  width: 20%;
+  width: 30%;
 }
 .service-item h3{
   text-align: center;
-  margin-left: 50px;
   padding-bottom: 15px;
+  margin-right: 35px;
 }
 .service-item p{
   margin-left: 15px;
@@ -130,9 +129,11 @@
 }
 
 .service-item img {
-  width: 250px;
-  height: 250px;
-  border-radius: 30%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-items: center;
 }
 
 /* Reason */
